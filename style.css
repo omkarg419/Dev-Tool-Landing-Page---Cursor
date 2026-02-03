@@ -58,7 +58,7 @@ header{
 
 }
 .navbar{
-    width: 90%;
+    width: 85%;
     margin: 2px auto;
     
     display: flex;
@@ -73,6 +73,8 @@ header{
 }
 .nav_list ul li{
     list-style: none;
+    font-size: 14px;
+    line-height: 21px;
 }
 .nav_list ul li:hover{
     cursor: pointer;
@@ -123,5 +125,45 @@ header{
     background-color: var(--color-theme-fg-hover);
     cursor: pointer;
 }
+#hero{
+    padding: 125px 20px 68px 20px;
+    width: 100%;
+    margin: 0px auto;
+}
+.container{
+    width: 85%;
+    margin: 20px auto;
+}
+.headind_container h1{
+    font-size: 26px;
+    font-weight: 400;
+    line-height: 32.5px;
+}
+.cta_btn{
+    background-color: var(--color-theme-fg);
+    height: 42.875px;
+    width: 228.775px;
+    border-radius: 25px;
+    color: var(--color-theme-bg);
+    padding: 10px 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    margin-top: 20px;
+}
+.cta_btn:hover{
+    background-color: var(--color-theme-fg-hover);
+    cursor: pointer;
+}
+.media{
+    margin-top: 70px;
+    
+}
+.media img{
+    width: 100%;
+    border-radius: 5px;
+}
+
 
 
