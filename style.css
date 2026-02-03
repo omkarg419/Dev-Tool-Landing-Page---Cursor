@@ -1,11 +1,127 @@
+
+:root{
+    --color-theme-bg: #14120b;
+    --color-theme-fg: #edecec;
+    --color-theme-fg-hover: #d7d6d5;
+    --color-theme-card-hex: #1b1913;
+    --color-theme-card-rgb: 27 29 39;
+    --color-theme-card-01-hex: #1d1b15;
+    --color-theme-card-02-hex: #201e18;
+    --color-theme-card-03-hex: #26241e;
+    --color-theme-card-04-hex: #2b2923;
+    --color-theme-card-hover-hex: #201e18;
+    --color-theme-card-hover-light-hex: #1d1b15;
+
+}
+
 *{
    margin: 0;
    padding: 0;
-   box-sizing: border-box; 
+   box-sizing: border-box;
+}
+/* Regular Font */
+@font-face {
+    font-family: 'Cursor Gothic';
+    src: url('./fonts/CursorGothic_Regular-s.p.a361088d.woff2') format('woff2');
+    font-weight: 400; 
+    font-style: normal;
 }
 
-body{
-    background-color: #14120B;
-    font-family: c;
+/* Bold Font */
+@font-face {
+    font-family: 'Cursor Gothic';
+    src: url('./fonts/CursorGothic_Bold-s.p.95169710.woff2') format('woff2');
+    font-weight: 700; 
+    font-style: normal;
 }
+
+/* Italic Font */
+@font-face {
+    font-family: 'Cursor Gothic';
+    src: url('./fonts/CursorGothic_Italic-s.p.00bb2606.woff2') format('woff2');
+    font-weight: 400;
+    font-style: italic;
+}
+body{
+    background-color: var(--color-theme-bg);
+    font-family:'Cursor Gothic', sans-serif ;
+    font-weight: 400;
+    color: var(--color-theme-fg);
+}
+
+header{
+    position: fixed;
+    background-color: var(--color-theme-bg);
+    width: 100%;
+    top:0;
+    left: 0;
+
+}
+.navbar{
+    width: 90%;
+    margin: 2px auto;
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 52px;
+}
+
+.nav_list ul{
+    display: flex;
+    gap: 25px;
+}
+.nav_list ul li{
+    list-style: none;
+}
+.nav_list ul li:hover{
+    cursor: pointer;
+    color: var(--color-theme-fg-hover);
+}
+
+.logo svg{
+    height: 31px;
+    width: 96px;
+    color: var(--color-theme-fg);
+}
+.logo svg:hover{
+    cursor: pointer;
+}
+
+.nav_btn{
+    display: flex;
+    justify-self: flex-end;
+    gap: 8px;
+}
+.sign_btn{
+    padding-bottom:5.88px;
+    padding-left:10.5px;
+    padding-right:10.5px;
+    padding-top:5.6px;
+    color: var(--color-theme-fg);
+    background-color: var(--color-theme-bg);
+    box-shadow: none;
+    border: 1px solid #3F3D38;
+    border-radius: 15px;
+}
+.sign_btn:hover{
+    background-color: var(--color-theme-card-01-hex);
+    cursor: pointer;
+}
+.down_btn{
+    padding-bottom:5.88px;
+    padding-left:10.5px;
+    padding-right:10.5px;
+    padding-top:5.6px;
+    background-color: var(--color-theme-fg);
+    color:var(--color-theme-bg) ;
+    border-radius: 15px;
+    box-shadow: none;
+    border:none ;
+}
+.down_btn:hover{
+    background-color: var(--color-theme-fg-hover);
+    cursor: pointer;
+}
+
 
