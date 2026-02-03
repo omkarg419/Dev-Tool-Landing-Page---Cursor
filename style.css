@@ -4,7 +4,6 @@
     --color-theme-fg: #edecec;
     --color-theme-fg-hover: #d7d6d5;
     --color-theme-card-hex: #1b1913;
-    --color-theme-card-rgb: 27 29 39;
     --color-theme-card-01-hex: #1d1b15;
     --color-theme-card-02-hex: #201e18;
     --color-theme-card-03-hex: #26241e;
@@ -126,7 +125,7 @@ header{
     cursor: pointer;
 }
 #hero{
-    padding: 125px 20px 68px 20px;
+    padding: 125px 20px 45px 20px;
     width: 100%;
     margin: 0px auto;
 }
@@ -164,6 +163,45 @@ header{
     width: 100%;
     border-radius: 5px;
 }
+
+#logo_garden{
+    width: 85%;
+    margin: 5px auto;
+    padding-bottom:33.6px;
+    padding-left:20px;
+    padding-right:20px;
+    padding-top:0px;
+}
+.header_2{
+    display: flex;
+    justify-content: center;
+}
+.header_2 h2{
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 22px;
+}
+.logo_container{
+    display: grid;
+    grid-template-columns: repeat(8,1fr);
+    grid-template-rows: 100px;
+    gap: 10px;
+}
+.child{
+    width: 153.75px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1B1913;
+    border: 0 solid;
+    border-radius: 5px;
+}
+.child img{
+    width: 100px;
+    height: 50px;
+}
+
 
 
 
