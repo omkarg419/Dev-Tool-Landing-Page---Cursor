@@ -195,6 +195,8 @@ header{
     background-color: #1B1913;
     border: 0 solid;
     border-radius: 5px;
+    background-color:  var(--color-theme-card-hover-light-hex);
+    border: 0.8px solid #25231D;
 }
 .child img{
     width: 100px;
@@ -214,6 +216,8 @@ header{
     margin:80px auto ;
     background-color: var(--color-theme-card-01-hex);
     border-radius: 5px;
+    background-color:  var(--color-theme-card-hover-light-hex);
+    border: 0.8px solid #25231D;
     display: grid;
     grid-template-columns:415px 840px;
     grid-template-rows: 685px;
@@ -271,6 +275,8 @@ header{
     display: grid;
     grid-template-columns:840px 415px;
     grid-template-rows: 685px;
+    background-color:  var(--color-theme-card-hover-light-hex);
+    border: 0.8px solid #25231D;
 }
 .Feature_card_2:hover{
     cursor: pointer;
@@ -305,6 +311,8 @@ header{
 .grid_child{
     background-color: var(--color-theme-card-01-hex);
     border-radius: 5px;
+    background-color:  var(--color-theme-card-hover-light-hex);
+    border: 0.8px solid #25231D;
 }
 .Figure{
     display: flex;
@@ -369,6 +377,8 @@ column-gap: 10px;
     border: 0 solid;
     display: flex;
     flex-direction: column;
+    background-color:  var(--color-theme-card-hover-light-hex);
+    border: 0.8px solid #25231D;
     
 }
 .test_grid_child:hover{
@@ -402,6 +412,7 @@ column-gap: 10px;
 
 #changeLog{
     width: 100%;
+    margin: 0 auto;
     padding: 67.2px 20px;
 }
 .changeHeder{
@@ -428,6 +439,12 @@ column-gap: 10px;
     padding-left: 17.5px;
     padding-right: 17.5px;
     padding-top: 15.9px;
+    background-color:  var(--color-theme-card-hover-light-hex);
+    border: 0.8px solid #25231D;
+}
+.article_child:hover{
+    background-color: var(--color-theme-card-02-hex);
+    cursor: pointer;
 }
 .article_head{
     display: flex;
@@ -460,4 +477,120 @@ column-gap: 10px;
     font-weight: 400;
     letter-spacing:0.08px;
     line-height:24px;
+}
+#Stories{
+    width: 100%;
+    margin: 0 auto;
+    padding: 67.2px 20px;  
+}
+.story_head{
+    margin-bottom:56px;
+    max-width:810.24px;
+    text-align: left;
+    height:151.675px;
+    width: 810.237px;
+}
+.stiry h2{
+
+    font-size: 36px;
+    font-weight: 400;
+    letter-spacing:-0.72px;
+    line-height:43.2px;
+}
+.stiry{
+    margin-block-end:22.4px;
+    margin-bottom: 22.4px;
+}
+.cta_btn_2{
+    background-color: var(--color-theme-fg);
+    color: var(--color-theme-bg);
+    width: 114.25px;
+    height: 42.875px;
+    border-radius: 27px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.cta_btn_2:hover{
+    background-color: var(--color-theme-fg-hover);
+    cursor: pointer;
+}
+.cta_btn_2 p{
+    font-size: 16px;
+    font-weight: 400;
+}
+.story_image img{
+    width: 100%;
+    border-radius: 6px;
+}
+#recent_high{
+    padding: 89.600px 20px;
+    margin-top: 67.200px;
+    width: 100%;
+    /* height:662px; */
+    background-color: #1B1913;
+}
+.main_grid{
+    display: grid;
+    grid-template-columns: repeat(24,54.1625px);
+    height: 482.8px;
+}
+.child_1{
+    grid-column-start: 1;
+    grid-column-end: 7;
+    height:482.8px;
+}
+.child_1 h2{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    height: 24px;
+    width: 325px;
+}
+.child_2{
+    grid-column-start: 7;
+    grid-column-end: 19;
+    height:490.8px;
+    
+}
+.re_hi_art_grid{
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    background-color:  var(--color-theme-card-hover-light-hex);
+    border: 0.8px solid #25231D;
+    height: 146.8px;
+    border-radius: 6px;
+    padding-bottom:15px;
+    padding-inline-end:15px;
+    padding-inline-start:15px;
+    padding-left:15px;
+    padding-right:15px;
+    padding-top:13.4px;
+}
+.re_hi_art_grid:hover{
+    cursor: pointer;
+    background-color: #201E18;
+}
+.article_head_2 span{
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing:0.08px;
+    line-height:24px;
+    margin-bottom: 12px;
+}
+.article_head_2 p{
+    color: #999896;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing:0.08px;
+    line-height:24px;
+}
+.article_footer_2{
+    margin-top: 22.400px;
+}
+
+.foot_mar{
+    margin-top: 47.400px;
 }
